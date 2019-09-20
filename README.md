@@ -1,10 +1,11 @@
-# elm-chrome-ext
-Chrome Browser extension for eLibrary MN
+# odin-chrome-ext
+Chrome Browser extension for ODIN and the State Library
 
 ## Modifications
 To make modifications, you can edit the following files:
 
-### callout.html
-To change the URL that the callout box links to, edit the value for href="" in line 8 of callout.html
+### ndesource.html
+This file contains all the HTML for the plugin
 
-The callout box text can also be edited in this file - see lines 12-17.
+### styles.css
+Change the CSS styles 

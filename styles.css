@@ -5,18 +5,19 @@ iframe {
   border-radius: 12px;
 }
 
-.elm-wrap a {
+.odin-wrap a {
   display: block;
   text-decoration: none;
   color: #222222;
   width: 100%;
 }
 
-.elm-content {
+.odin-content {
   text-align: center;
 }
 
-.elm-content h1 {
+
+.odin-content h1 {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -27,26 +28,30 @@ iframe {
   border: 0;
 }
 
-.elm-content img {
-  width: 50%;
+.odin-content img {
+  width: 33%;
+  text-align: center;
 }
 
-.elm-content p {
+.odin-content p {
   font-size: 200%;
   color: #666666;
 }
 
-.elm-content ul {
+.odin-content ul {
   list-style-type: none;
-  margin-left: 0;
+  list-style-image: url('/images/odin-logo.svg');
+  margin: 0px 10%;
   padding-inline-start: 0;
   font-size: 115%;
+  text-align: left;
+  width: 80%;
 }
 
-p.elm-tagline {
+p.odin-tagline {
   font-weight: bold;
 }
 
-p.elm-url {
+p.odin-url {
   color: blue;
 }
