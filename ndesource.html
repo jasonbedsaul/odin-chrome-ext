@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" media="screen" />
   </head>
   <body>
     <div class="odin-wrap">
-      <a href="http://www.library.nd.gov/onlineresources.html" target="_blank">
+      
         <div class="odin-content">
           <h1>North Dakota Library Resources</h1>
-          <img src="images/odin-logo.svg" alt="NDUS-ODIN logo" />
-          <p class="odin-tagline">Go beyond Google.<br />Search your library.</p>
+          <img src="images/odin-logo-full.svg" alt="NDUS-ODIN logo" />
+          <p class="odin-tagline">Go beyond Google.<br />Search local libraries.</p>
+          
+          <form action="https://www.odin.nodak.edu/primo/redirect/odin/primo-search.php" class="search" method="POST" name="searchForm0" target="_blank">
+            <div class="input-group col-12 col-md-9 col-lg-7">
+            <div class="input-group-prepend input-group col-12">
+              <!-- <select id="custom_search_input" name="limit">
+                  <option value="any">Anywhere in the record</option>
+                  <option value="title">In the title</option>
+                  <option value="creator">As author/creator</option>
+                  <option value="sub">In subject</option>
+                  <option value="isbn">ISBN</option>
+                  <option value="issn">ISSN</option>
+                </select> -->
+              </div>
+            <input class="form-control" name="lookfor" placeholder="Search all ODIN Libraries" size="30" type="text" />
+            <div class="input-group-append"><input class="btn btn-primary" name="submit" type="submit" value="Search" /></div>
+            </div>
+            </form>
+            <h3>Looking for more Local Resources?</h3>
           <ul>
-            <li>Seamlessly accessible from schools and public libraries</li>
+            <li>Watch/Read State Library tutorials</li>
+            <li>Seamlessly access resources from schools and public libraries</li>
             <li>No ads or fake news</li>
-            <li>Accessible anywhere with a North Dakota Library card</li>
+            <li>Learn a new language with Mango</li>
             <li>Visit your library for a free card</li>
           </ul>
+          <a href="http://www.library.nd.gov/onlineresources.html" target="_blank">
           <p class="odin-url">library.nd.gov/onlineresources.html</p>
+        </a>
         </div>
-      </a>
     </div>
   </body>
 </html>

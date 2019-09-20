@@ -5,7 +5,8 @@ iframe {
   border-radius: 12px;
 }
 
-.odin-wrap a {
+.odin-wrap a,
+.odin-content {
   display: block;
   text-decoration: none;
   color: #222222;
@@ -29,7 +30,7 @@ iframe {
 }
 
 .odin-content img {
-  width: 33%;
+  width: 50%;
   text-align: center;
 }
 
@@ -53,5 +54,5 @@ p.odin-tagline {
 }
 
 p.odin-url {
-  color: blue;
+  color: #065d91;
 }
