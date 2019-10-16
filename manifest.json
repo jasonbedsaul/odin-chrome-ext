@@ -1,6 +1,6 @@
 {
-  "name": "ND e-resources Google Search Box",
-  "description": "Inserts a call-to-action box on Google search results pages that highlights the NDSL resources web page",
+  "name": "Google addon for ODIN and ND Resources",
+  "description": "Inserts a search ODIN libraries box and link to database resources on Google search results pages",
   "content_scripts": [
     {
       "matches": ["*://www.google.com/search?*"], 

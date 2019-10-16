@@ -10,35 +10,28 @@
         <div class="odin-content">
           <h1>North Dakota Library Resources</h1>
           <img src="images/odin-logo-full.svg" alt="NDUS-ODIN logo" />
-          <p class="odin-tagline">Go beyond Google.<br />Search local libraries.</p>
-          
-          <form action="https://www.odin.nodak.edu/primo/redirect/odin/primo-search.php" class="search" method="POST" name="searchForm0" target="_blank">
-            <div class="input-group col-12 col-md-9 col-lg-7">
-            <div class="input-group-prepend input-group col-12">
-              <!-- <select id="custom_search_input" name="limit">
-                  <option value="any">Anywhere in the record</option>
-                  <option value="title">In the title</option>
-                  <option value="creator">As author/creator</option>
-                  <option value="sub">In subject</option>
-                  <option value="isbn">ISBN</option>
-                  <option value="issn">ISSN</option>
-                </select> -->
+          <p class="odin-tagline">Go beyond Google.<br />Search local resources.</p>
+
+            <form action="https://www.odin.nodak.edu/primo/redirect/odin/primo-search.php" class="search" method="POST" name="searchForm0" target="_blank">
+              <div class="input-group col-12 col-md-9 col-lg-7">
+              <div class="input-group-prepend">
+              <select id="custom_search_input" name="limit">
+                <option value="any">Any</option>
+                <option value="title">Title</option>
+                <option value="creator">Author</option>
+                <option value="sub">Subject</option>
+                <option value="isbn">ISBN</option>
+              </select></div>
+              <input class="form-control" name="lookfor" placeholder="Search all ODIN Libraries" size="30" type="text" />
+              <div class="input-group-append"><input class="btn btn-primary" name="submit" type="submit" value="Search" /></div>
               </div>
-            <input class="form-control" name="lookfor" placeholder="Search all ODIN Libraries" size="30" type="text" />
-            <div class="input-group-append"><input class="btn btn-primary" name="submit" type="submit" value="Search" /></div>
-            </div>
-            </form>
-            <h3>Looking for more Local Resources?</h3>
-          <ul>
-            <li>Watch/Read State Library tutorials</li>
-            <li>Seamlessly access resources from schools and public libraries</li>
-            <li>No ads or fake news</li>
-            <li>Learn a new language with Mango</li>
-            <li>Visit your library for a free card</li>
-          </ul>
-          <a href="http://www.library.nd.gov/onlineresources.html" target="_blank">
-          <p class="odin-url">library.nd.gov/onlineresources.html</p>
-        </a>
+              </form>
+
+            <h4>Looking for more?</h4>
+      
+            <a target="_blank" class="btn btn-primary btn-lg" href="http://www.library.nd.gov/onlineresources.html">Search Databases</a>
+            <br />
+            <a class="btn btn-sm btn-link" target="_blank" href="https://www.youtube.com/playlist?list=PL7U0G5nWPfriwdYLR3OW8P1VS91dAviuQ">Need help with Databases?</a>
         </div>
     </div>
   </body>

@@ -4,14 +4,17 @@ iframe {
   border: 1px solid lightgray;
   border-radius: 12px;
 }
+* {
+  font-family: 'Lato', arial, sans-serif;
+}
 
-.odin-wrap a,
+/* .odin-wrap a,
 .odin-content {
   display: block;
   text-decoration: none;
   color: #222222;
   width: 100%;
-}
+} */
 
 .odin-content {
   text-align: center;
@@ -32,6 +35,7 @@ iframe {
 .odin-content img {
   width: 50%;
   text-align: center;
+  padding: 15px 0px;
 }
 
 .odin-content p {
@@ -50,9 +54,15 @@ iframe {
 }
 
 p.odin-tagline {
-  font-weight: bold;
+  /* font-weight: bold; */
+  line-height: 1.2em;
 }
 
 p.odin-url {
   color: #065d91;
+}
+h4 {
+  padding-left: 15px;
+  text-align: left;
+  padding-top: 20px;
 }
